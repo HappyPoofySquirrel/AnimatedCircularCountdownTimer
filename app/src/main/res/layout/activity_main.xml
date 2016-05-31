@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ghopkins.circularprogressbar.MainActivity">
+
+    <at.grabner.circleprogress.CircleProgressView
+        android:id="@+id/circleView"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        CircleProgressView:cpv_value="10"
+        CircleProgressView:cpv_maxValue="100"
+
+        CircleProgressView:cpv_barWidth="4dp"
+        CircleProgressView:cpv_rimWidth="4dp"
+        CircleProgressView:cpv_contourSize="0dp"
+        CircleProgressView:cpv_autoTextSize="true"
+        CircleProgressView:cpv_seekMode="true"
+        CircleProgressView:cpv_unit="%"
+        CircleProgressView:cpv_unitPosition="right_top"
+        CircleProgressView:cpv_unitScale="1"
+        CircleProgressView:cpv_textScale="1"
+        CircleProgressView:cpv_showUnit="true"
+        />
+
+
+</LinearLayout>
